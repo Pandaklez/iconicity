@@ -1,11 +1,30 @@
 ---
 title: "Pages"
 author: "Ann Klezovich"
-date: '24 Г¬Г Гї 2017 ГЈ '
+date: '24 мая 2017 г '
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+### Iconicity Patterns in Sign Languages
+
 Download database: [.csv](https://raw.githubusercontent.com/Pandaklez/Iconicity-in-Sign-Languages/master/annotated_data_new.csv)
+
+#### Window
+```{r}
+library(lingtypology)
+library(htmlwidgets)
+df <- read.csv("window.csv")
+df$urls <- sapply(df$urls, function(x){paste(c("<video width='250' height='200' controls> <source src='", as.character(x), "' type='video/mp4'></video>"), sep = "", collapse = "")})
+set.seed(4) # for having the same colors
+m <- map.feature(languages = df$languages,
+                 features = df$pattern,
+                 stroke.features = df$base,
+                 popup = df$urls,
+                 title = df$word[1],
+                 width = 500)
+#path <- paste0(df$word[1], ".html")
+#saveWidget(m, file=path)
+```
