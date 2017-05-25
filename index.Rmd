@@ -1,21 +1,29 @@
 ---
-title: "Pages"
-author: "Ann Klezovich"
-date: '24 мая 2017 г '
-output: html_document
+title: "Github page"
+output:
+  html_document:
+    theme: lumen
+    highlight: tango
+    toc: yes
+    toc_position: right
+    toc_float: yes
+    smooth_scroll: false
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-### Iconicity Patterns in Sign Languages
-
-Download database: [.csv](https://raw.githubusercontent.com/Pandaklez/Iconicity-in-Sign-Languages/master/annotated_data_new.csv)
-
-#### Window
-```{r}
+knitr::opts_chunk$set(echo = FALSE)
 library(lingtypology)
-library(htmlwidgets)
+```
+
+### Typology of Iconicity Patterns in Sign Languages
+
+This page represents sign languages' preferences for iconicity patterns and iconicity bases in respect to different iconic signs.
+
+Here is a link to download our dataset: [.csv](https://raw.githubusercontent.com/Pandaklez/Iconicity-in-Sign-Languages/master/annotated_data_new.csv)
+
+### Window
+
+```{r}
 df <- read.csv("window.csv")
 df$urls <- sapply(df$urls, function(x){paste(c("<video width='250' height='200' controls> <source src='", as.character(x), "' type='video/mp4'></video>"), sep = "", collapse = "")})
 set.seed(4) # for having the same colors
@@ -25,6 +33,196 @@ m <- map.feature(languages = df$languages,
                  popup = df$urls,
                  title = df$word[1],
                  width = 500)
-#path <- paste0(df$word[1], ".html")
-#saveWidget(m, file=path)
+```
+
+### Word 3
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 4
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 5
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 6
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 7
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 8
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 9
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 10
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 11
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 12
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 13
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 14
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 15
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 16
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 17
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 1
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 2
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 3
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 4
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 5
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 6
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 7
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 8
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 9
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 10
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 11
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 12
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 13
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 14
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 15
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 16
+
+```{r}
+map.feature("Adyghe")
+```
+
+### Word 17
+
+```{r}
+map.feature("Adyghe")
 ```
