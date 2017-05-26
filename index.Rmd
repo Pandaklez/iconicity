@@ -1,5 +1,5 @@
 ---
-title: "Github page"
+title: "Typology of Iconicity Patterns in Sign Languages"
 output:
   html_document:
     theme: lumen
@@ -29,12 +29,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### bicycle
@@ -45,12 +48,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### truck
@@ -61,12 +67,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### boat
@@ -77,12 +86,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### tie
@@ -93,12 +105,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### hat
@@ -109,12 +124,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### socks
@@ -125,12 +143,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### elephant
@@ -141,12 +162,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### cat
@@ -157,12 +181,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### giraffe
@@ -173,12 +200,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### pear
@@ -189,12 +219,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### cucumber
@@ -205,12 +238,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### sausage
@@ -221,12 +257,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### sun
@@ -237,12 +276,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### sky
@@ -253,12 +295,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### tree
@@ -269,12 +314,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### hammer
@@ -285,12 +333,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### shovel
@@ -301,12 +352,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### house
@@ -317,12 +371,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### wardrobe
@@ -333,12 +390,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### armchair
@@ -349,12 +409,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### lamp
@@ -365,12 +428,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### chair
@@ -381,12 +447,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### moon
@@ -397,12 +466,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### flower
@@ -413,12 +485,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### sand
@@ -429,12 +504,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### sea
@@ -445,12 +523,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### car
@@ -461,12 +542,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### plane
@@ -477,12 +561,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### train
@@ -493,12 +580,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### bus
@@ -509,12 +599,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### underground
@@ -525,12 +618,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### tram
@@ -541,12 +637,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### motorbike
@@ -557,12 +656,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### helicopter
@@ -573,12 +675,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### taxi
@@ -589,12 +694,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### ship
@@ -605,12 +713,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### balloon
@@ -621,12 +732,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### mountain
@@ -637,12 +751,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### island
@@ -653,12 +770,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### river
@@ -669,12 +789,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### star
@@ -685,12 +808,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### lightning
@@ -701,12 +827,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### rainbow
@@ -717,12 +846,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### cloud
@@ -733,12 +865,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### forest
@@ -749,12 +884,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### lake
@@ -765,12 +903,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### fire
@@ -781,12 +922,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### cave
@@ -797,12 +941,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### desert
@@ -813,12 +960,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### wave
@@ -829,12 +979,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### fork
@@ -845,12 +998,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### spoon
@@ -861,12 +1017,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### knife
@@ -877,12 +1036,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### tooth_brush
@@ -893,12 +1055,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### comb
@@ -909,12 +1074,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### bear
@@ -925,12 +1093,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### dog
@@ -941,12 +1112,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### lion
@@ -957,12 +1131,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### bird
@@ -973,12 +1150,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### cow
@@ -989,12 +1169,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### frog
@@ -1005,12 +1188,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### turtle
@@ -1021,12 +1207,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### meat
@@ -1037,12 +1226,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### banana
@@ -1053,12 +1245,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### cake
@@ -1069,12 +1264,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### bread
@@ -1085,12 +1283,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### pineapple
@@ -1101,12 +1302,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### lemon
@@ -1117,12 +1321,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### carrot
@@ -1133,12 +1340,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### skirt
@@ -1149,12 +1359,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### sweater
@@ -1165,12 +1378,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### bracelet
@@ -1181,12 +1397,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### scarf
@@ -1197,12 +1416,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### T-shirt
@@ -1213,12 +1435,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### trousers
@@ -1229,12 +1454,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### blouse
@@ -1245,12 +1473,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### cup
@@ -1261,12 +1492,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### kettle
@@ -1277,12 +1511,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### key
@@ -1293,12 +1530,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### door
@@ -1309,12 +1549,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### room
@@ -1325,12 +1568,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### bed
@@ -1341,12 +1587,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### table
@@ -1357,12 +1606,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### fox
@@ -1373,12 +1625,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### mouse
@@ -1389,12 +1644,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### spider
@@ -1405,12 +1663,15 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
 
 ### duck
@@ -1421,10 +1682,13 @@ df$urls <- sapply(df$urls, function(x){
   paste(c("<video width='250' height='200' controls> <source src='",
           as.character(x),
           "' type='video/mp4'></video>"), sep = "", collapse = "")})
-set.seed(4)
+set.seed(6)
 map.feature(languages = df$languages,
             features = df$pattern,
             stroke.features = df$base,
             popup = df$urls,
-            title = df$word[1])
+            title = df$word[1],
+            stroke.color = rainbow(6),
+            stroke.title = "Iconicity bases",
+            map.orientation = "Atlantic")
 ```
