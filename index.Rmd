@@ -10,12 +10,13 @@ output:
     smooth_scroll: false
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+```{r setup, include=FALSE, warning=F}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE)
 library(lingtypology)
+library(DT)
 ```
 
-### Typology of Iconicity Patterns in Sign Languages
+### Typology of Iconicity Patterns in Sign Languages {.tabset .tabset-fade .tabset-pills}
 
 This page represents sign languages' preferences for iconicity patterns and iconicity bases in respect to different iconic signs.
 
@@ -23,10 +24,10 @@ Here is a link to download our dataset: [.csv](https://raw.githubusercontent.com
 
 #### search
 ```{r}
-library(DT)
-wwsb <- read.csv("annotated_data_new.csv")
+wwsb <- read.csv("dtdt.csv")
 datatable(wwsb, filter = 'top', rownames = FALSE, options = list(pageLength = 20, dom = 'tip'), escape = FALSE)
 ```
+
 #### Maps
 
 ### window
